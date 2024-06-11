@@ -1,21 +1,22 @@
-# TEST [![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# test [![BSD 3-Clause License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ## Description
-TEST
+test
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#contributing)
 - [License](#license)
+- [Questions](#questions)
 ## Installation
-TEST
+test
 ## Usage
-TEST
+test
 ## Contributing
-TEST
+test
 ## Tests
-TEST
+test
 ## License
-Licensed under the [Apache 2.0](https://opensource.org/licenses/Apache-2.0) license.
+Licensed under the [BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause) license.
 ## Questions
 * Github: [pranithgunda](https://github.com/pranithgunda)
 * For additional questions reach me at pranith0527@yahoo.com

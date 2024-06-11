@@ -74,14 +74,16 @@ inquirer
             name:"email"
         }
     ])
-    .then((response) => {
+    .then((response)=>{
         return response
     })
-    .then((data) => {
+    .then((data)=>{
         const markDownData = markDown.generateMarkdown(data);
         writeToFile("README.md", markDownData);
     })
-
+    .catch((error)=>{
+        console.log(error);
+    })
 
 
 // function to write README file
