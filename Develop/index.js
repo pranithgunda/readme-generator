@@ -19,7 +19,9 @@ const questions = [
     "Usage Information",
     "Contribution Guidelines",
     "Test Instructions",
-    "License"
+    "License",
+    "Github Username",
+    "Email",
 ];
 
 inquirer
@@ -60,6 +62,16 @@ inquirer
             message: questions[6],
             name: "license",
             choices: licenses
+        },
+        {
+            type:"input",
+            message:questions[7],
+            name:"github_username"
+        },
+        {
+            type:"input",
+            message:questions[8],
+            name:"email"
         }
     ])
     .then((response) => {

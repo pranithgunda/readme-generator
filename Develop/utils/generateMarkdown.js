@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Initiate array with licenses presented to user for selection
 let readmeLicenses = [{
   license: 'Apache 2.0',
   badge: 'https://img.shields.io/badge/License-Apache_2.0-blue.svg',
@@ -85,6 +84,7 @@ ${data.description}
 - [Usage](#usage)
 - [Credits](#contributing)
 - [License](#license)
+- [Questions](#questions)
 ## Installation
 ${data.installation_instructions}
 ## Usage
@@ -94,6 +94,9 @@ ${data.contribution_guidelines}
 ## Tests
 ${data.test_instructions}
 ${renderLicenseSection(data.license)}
+## Questions
+* Github: [${data.github_username}](https://github.com/${data.github_username})
+* For additional questions reach me at ${data.email}
 `}
 module.exports = {
   generateMarkdown,
