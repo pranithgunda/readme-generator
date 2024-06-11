@@ -1,18 +1,18 @@
-# README GENERATOR
+# TEST [![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Description
-Auto generate readme file using node.js and inquirer package
+TEST
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#contributing)
 - [License](#license)
 ## Installation
-Install node.js and import the inquirer package from npm
+TEST
 ## Usage
-To auto generate readme file, saving manual effort
+TEST
 ## Contributing
-Pranith Gunda
+TEST
 ## Tests
-NA
+TEST
 ## License
-The MIT License
+Licensed under the [Apache 2.0](https://opensource.org/licenses/Apache-2.0) license.
