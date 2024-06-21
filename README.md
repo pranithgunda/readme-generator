@@ -10,6 +10,6 @@ The application when invoked through command `node index.js `, will prompt the u
 
 ![Generated README.md Preview](<Develop/assets/images/README Preview.png>)
 
-## Link to video demonstration
+## Link to Video Demonstration
 
 https://drive.google.com/file/d/1nB0QJuQOKPlkA7qiMADC1_Fso-NmEVil/view
