@@ -64,31 +64,37 @@ inquirer
             choices: licenses
         },
         {
-            type:"input",
-            message:questions[7],
-            name:"github_username"
+            type: "input",
+            message: questions[7],
+            name: "github_username"
         },
         {
-            type:"input",
-            message:questions[8],
-            name:"email"
+            type: "input",
+            message: questions[8],
+            name: "email"
         }
     ])
-    .then((response)=>{
+    .then((response) => {
         const markDownData = markDown.generateMarkdown(response);
         // Generate README file
-        writeToFile("README.md",markDownData)
+        writeToFile("README.md", markDownData)
     })
-    .catch((error)=>{
+    .catch((error) => {
         // Handle errors that occur in promise chain
         console.error(error);
     })
 
 
 // function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) =>
-        err ? console.error(err) : console.log('Success!'))
+async function writeToFile(fileName, data) {
+    try {
+        await fs.writeFile(fileName, data, () => {
+            console.log('README.md file generated successfully');
+        });
+    }
+    catch (error) {
+        console.error('Error generating README file:', error);
+    }
 };
 
 // function to initialize app
