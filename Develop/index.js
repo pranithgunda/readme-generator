@@ -75,14 +75,13 @@ inquirer
         }
     ])
     .then((response)=>{
-        return response
-    })
-    .then((data)=>{
-        const markDownData = markDown.generateMarkdown(data);
-        writeToFile("README.md", markDownData);
+        const markDownData = markDown.generateMarkdown(response);
+        // Generate README file
+        writeToFile("README.md",markDownData)
     })
     .catch((error)=>{
-        console.log(error);
+        // Handle errors that occur in promise chain
+        console.error(error);
     })
 
 
