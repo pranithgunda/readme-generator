@@ -1,6 +1,6 @@
 # README Generator [![The MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-Autogenerate README File
+Auto generate README file
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -8,11 +8,11 @@ Autogenerate README File
 - [License](#license)
 - [Questions](#questions)
 ## Installation
-Require node environment and installation of inquirer package from npm
+Require node.js environment and inquirer package installed from npm
 ## Usage
-Invoke application by executing the command node index.js and respond to user prompts
+Invoke application by running command node index.js
 ## Contributing
-PFB Github URL to contribute
+PFB Github URL
 ## Tests
 NA
 ## License
